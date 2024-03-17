@@ -1,0 +1,189 @@
+$comment
+	File created using the following command:
+		vcd file morse_encoder.msim.vcd -direction
+$end
+$date
+	Mon Nov 20 13:07:49 2023
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module morse_encoder_vlg_vec_tst $end
+$var reg 1 ! dash $end
+$var reg 1 " dot $end
+$var reg 2 # key [1:0] $end
+$var wire 1 $ ssd [6] $end
+$var wire 1 % ssd [5] $end
+$var wire 1 & ssd [4] $end
+$var wire 1 ' ssd [3] $end
+$var wire 1 ( ssd [2] $end
+$var wire 1 ) ssd [1] $end
+$var wire 1 * ssd [0] $end
+
+$scope module i1 $end
+$var wire 1 + gnd $end
+$var wire 1 , vcc $end
+$var wire 1 - unknown $end
+$var tri1 1 . devclrn $end
+$var tri1 1 / devpor $end
+$var tri1 1 0 devoe $end
+$var wire 1 1 key[0]~input_o $end
+$var wire 1 2 key[1]~input_o $end
+$var wire 1 3 ssd[0]~output_o $end
+$var wire 1 4 ssd[1]~output_o $end
+$var wire 1 5 ssd[2]~output_o $end
+$var wire 1 6 ssd[3]~output_o $end
+$var wire 1 7 ssd[4]~output_o $end
+$var wire 1 8 ssd[5]~output_o $end
+$var wire 1 9 ssd[6]~output_o $end
+$var wire 1 : dash~input_o $end
+$var wire 1 ; DASH~0_combout $end
+$var wire 1 < DASH~q $end
+$var wire 1 = dot~input_o $end
+$var wire 1 > DOT~0_combout $end
+$var wire 1 ? DOT~q $end
+$var wire 1 @ comb~0_combout $end
+$var wire 1 A shift_reg[2]~0_combout $end
+$var wire 1 B comb_83|Selector1~0_combout $end
+$var wire 1 C comb_83|Selector4~0_combout $end
+$var wire 1 D comb_83|Selector3~0_combout $end
+$var wire 1 E comb_83|Selector2~0_combout $end
+$var wire 1 F comb_83|Selector1~1_combout $end
+$var wire 1 G comb_83|Selector0~0_combout $end
+$var wire 1 H shift_reg [4] $end
+$var wire 1 I shift_reg [3] $end
+$var wire 1 J shift_reg [2] $end
+$var wire 1 K shift_reg [1] $end
+$var wire 1 L shift_reg [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+b0 #
+x*
+0)
+0(
+x'
+x&
+x%
+x$
+0+
+1,
+x-
+1.
+1/
+10
+01
+02
+x3
+04
+05
+x6
+x7
+x8
+x9
+1:
+1;
+0<
+1=
+1>
+0?
+0@
+0A
+xB
+xC
+xD
+xE
+xF
+xG
+xL
+xK
+xJ
+xI
+xH
+$end
+#10000
+0"
+0=
+1?
+1A
+1@
+0>
+0L
+0B
+0K
+0J
+0I
+0H
+#70000
+1"
+1=
+#100000
+0"
+0=
+0?
+0A
+0@
+1>
+#170000
+1"
+1=
+#200000
+0"
+0=
+1?
+1A
+1@
+0>
+#280000
+1"
+1=
+#310000
+0"
+0=
+0?
+0A
+0@
+1>
+#360000
+1"
+1=
+#400000
+0!
+0:
+1<
+1A
+1L
+0;
+1K
+1B
+1J
+1I
+0G
+1F
+1E
+0D
+1C
+13
+06
+17
+18
+09
+0B
+1H
+0$
+1%
+1&
+0'
+1*
+#470000
+1!
+1:
+#1000000

@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'dash'
+Slack : -1.712
+TNS   : -1.712
+
+Type  : Slow 1200mV 85C Model Setup 'DASH'
+Slack : -0.601
+TNS   : -1.723
+
+Type  : Slow 1200mV 85C Model Setup 'dot'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dot'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DASH'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dash'
+Slack : 1.754
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dash'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dot'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DASH'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'dash'
+Slack : -1.493
+TNS   : -1.493
+
+Type  : Slow 1200mV 0C Model Setup 'DASH'
+Slack : -0.464
+TNS   : -1.318
+
+Type  : Slow 1200mV 0C Model Setup 'dot'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dot'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DASH'
+Slack : 0.416
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dash'
+Slack : 1.564
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dash'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dot'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DASH'
+Slack : 0.438
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dash'
+Slack : -0.281
+TNS   : -0.281
+
+Type  : Fast 1200mV 0C Model Setup 'DASH'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dot'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DASH'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dot'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dash'
+Slack : 0.556
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dot'
+Slack : -3.000
+TNS   : -4.098
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dash'
+Slack : -3.000
+TNS   : -4.092
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DASH'
+Slack : 0.396
+TNS   : 0.000
+
+------------------------------------------------------------

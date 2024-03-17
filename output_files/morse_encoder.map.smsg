@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at morse_encoder.v(45): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/18.0/hdlprojectfinal/morse_encoder.v Line: 45
+Info (10281): Verilog HDL Declaration information at morse_encoder.v(3): object "dot" differs only in case from object "DOT" in the same scope File: C:/intelFPGA_lite/18.0/hdlprojectfinal/morse_encoder.v Line: 3
+Info (10281): Verilog HDL Declaration information at morse_encoder.v(4): object "dash" differs only in case from object "DASH" in the same scope File: C:/intelFPGA_lite/18.0/hdlprojectfinal/morse_encoder.v Line: 4
+Warning (10268): Verilog HDL information at disp4.v(5): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/18.0/hdlprojectfinal/disp4.v Line: 5
