@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ssd[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ssd[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ssd[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ssd[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ssd[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dot",
+					"strict" : false
+				},
+				{
+					"name" : "dash",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

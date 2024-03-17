@@ -1,0 +1,29 @@
+|morse_encoder
+key[0] => ~NO_FANOUT~
+key[1] => ~NO_FANOUT~
+dot => DOT.CLK
+dash => DASH.CLK
+ssd[0] << disp4:comb_83.port1
+ssd[1] << disp4:comb_83.port1
+ssd[2] << disp4:comb_83.port1
+ssd[3] << disp4:comb_83.port1
+ssd[4] << disp4:comb_83.port1
+ssd[5] << disp4:comb_83.port1
+ssd[6] << disp4:comb_83.port1
+
+
+|morse_encoder|disp4:comb_83
+shift[0] => Decoder0.IN4
+shift[1] => Decoder0.IN3
+shift[2] => Decoder0.IN2
+shift[3] => Decoder0.IN1
+shift[4] => Decoder0.IN0
+output1[0] <= output1[0].DB_MAX_OUTPUT_PORT_TYPE
+output1[1] <= output1[1].DB_MAX_OUTPUT_PORT_TYPE
+output1[2] <= output1[2].DB_MAX_OUTPUT_PORT_TYPE
+output1[3] <= output1[3].DB_MAX_OUTPUT_PORT_TYPE
+output1[4] <= output1[4].DB_MAX_OUTPUT_PORT_TYPE
+output1[5] <= output1[5].DB_MAX_OUTPUT_PORT_TYPE
+output1[6] <= output1[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
